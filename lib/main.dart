@@ -59,6 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     final DateTime picked = await showDatePicker(
       context: context,
+
       initialDate: DateTime.now(),
       firstDate: DateTime.now().subtract(Duration(days: 1)),
       lastDate: DateTime(2100),
